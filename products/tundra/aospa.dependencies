@@ -40,5 +40,12 @@
         "repository": "truemodder/android_kernel_motorola_sm7325",
         "target_path": "kernel/msm-5.4",
         "revision": "uvite"
+    },
+    {
+        "remote": "blobs-gitlab",
+        "repository": "android_prebuilts_clang-standalone",
+        "target_path": "prebuilts/clang-standalone",
+        "revision": "14",
+        "clone-depth": "1"
     }
 ]
