@@ -31,7 +31,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=tundra_g
 
 endif

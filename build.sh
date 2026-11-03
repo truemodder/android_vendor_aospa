@@ -181,7 +181,7 @@ echo -e ""
 # Lunch-time!
 echo -e "${CLR_BLD_BLU}Lunching $DEVICE${CLR_RST} ${CLR_CYA}(Including dependencies sync)${CLR_RST}"
 echo -e ""
-lunch "aospa_$DEVICE-$BUILD_TYPE"
+lunch "aospa_$DEVICE-trunk_staging-$BUILD_TYPE"
 AOSPA_VERSION="$(get_build_var AOSPA_VERSION)"
 TARGET_KERNEL_OUT="$DIR_ROOT/$(get_build_var KERNEL_PREBUILT_DIR)"
 TARGET_KERNEL_VERSION="$(get_build_var TARGET_KERNEL_VERSION)"

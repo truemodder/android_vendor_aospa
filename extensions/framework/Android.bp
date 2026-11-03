@@ -5,6 +5,7 @@
 
 android_library {
     name: "co.aospa.framework",
+    min_sdk_version: "37",
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
     static_libs: [
